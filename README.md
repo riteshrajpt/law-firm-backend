@@ -27,57 +27,26 @@ This is a web application built for managing appointments, invoicing, and user m
 
    ```bash
    git clone https://github.com/riteshrajpt/law-firm-backend.git
-Navigate to the backend directory:
+2. Navigate to the backend directory:
 
-bash
-Copy code
-cd law-firm-backend
-Install the required dependencies:
+```bash
+   cd law-firm-backend
+   Install the required dependencies:
+   npm install
+   Create a .env file in the root directory and add the necessary environment variables, such as:
+   MONGO_URI=your_mongo_database_uri
+   JWT_SECRET=your_jwt_secret
+   EMAIL_HOST=your_email_smtp_host
+   EMAIL_PORT=your_email_smtp_port
+   EMAIL_USER=your_email_address
+   EMAIL_PASS=your_email_password
+   Start the backend server:
+   npm start
+   The backend will be running on http://localhost:5000.
 
-bash
-Copy code
-npm install
-Create a .env file in the root directory and add the necessary environment variables, such as:
-
-plaintext
-Copy code
-MONGO_URI=your_mongo_database_uri
-JWT_SECRET=your_jwt_secret
-EMAIL_HOST=your_email_smtp_host
-EMAIL_PORT=your_email_smtp_port
-EMAIL_USER=your_email_address
-EMAIL_PASS=your_email_password
-Start the backend server:
-
-bash
-Copy code
-npm start
-The backend will be running on http://localhost:5000.
-
-Frontend
-Clone the frontend repository:
-
-bash
-Copy code
-git clone https://github.com/riteshrajpt/law-firm-frontend.git
-Navigate to the frontend directory:
-
-bash
-Copy code
-cd law-firm-frontend
-Install the required dependencies:
-
-bash
-Copy code
-npm install
-Start the React application:
-
-bash
-Copy code
-npm start
-The frontend will be running on http://localhost:3000.
-
-API Endpoints
+```
+3. API Endpoints
+```bash
 User Authentication
 POST /api/auth/register - Register a new user.
 POST /api/auth/login - Login an existing user.
@@ -114,7 +83,9 @@ Copy code
   .env                # Environment variables for the frontend
   package.json        # Frontend dependencies and scripts
   index.js            # Entry point for the frontend
-Contributing
+```
+4. Contributing
+
 We welcome contributions to the project! If you'd like to contribute, please fork the repository, make your changes, and submit a pull request.
 
 Steps to contribute:
