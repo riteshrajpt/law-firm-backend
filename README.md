@@ -95,9 +95,8 @@ Create a new branch for your changes.
 Make your changes and commit them.
 Push your changes to your fork.
 Submit a pull request to the main repository.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 Contact
 Author: Ritesh Singh
-Email: ritesh.singh@example.com
+Email: rsinghfsd@gmail.com
